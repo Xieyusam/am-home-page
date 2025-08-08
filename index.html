@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caboolture Massage & Beauty</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <span>Massage & Beauty</span>
+            </div>
+            <nav class="desktop-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="pages/services.html">Services</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="pages/contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </header>
+
+    <div class="mobile-nav-overlay" id="mobile-nav-overlay">
+        <nav class="mobile-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pages/services.html">Services</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="pages/contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <section id="hero" data-aos="fade-up">
+        <div class="container">
+            <h2>Welcome to Caboolture Massage & Beauty</h2>
+            <p>Your go-to spot for traditional massage therapy in Caboolture. Our skilled therapists are experts in the art of relaxation and rejuvenation.</p>
+            <a href="#contact" class="btn">Book For an Appointment</a>
+        </div>
+    </section>
+
+    <section id="services" data-aos="fade-up">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service-grid">
+                <div class="service-item" data-aos="fade-up" data-aos-delay="100">
+                    <h3>Deep Tissue Massage</h3>
+                    <p>Relieves severe tension in the muscle and connective tissue.</p>
+                </div>
+                <div class="service-item" data-aos="fade-up" data-aos-delay="200">
+                    <h3>Aromatherapy Massage</h3>
+                    <p>Uses essential oils to promote healing and a feeling of well-being.</p>
+                </div>
+                <div class="service-item" data-aos="fade-up" data-aos-delay="300">
+                    <h3>Swedish Massage</h3>
+                    <p>Gentle massage that uses long strokes, kneading, deep circular movements, vibration and tapping.</p>
+                </div>
+                <div class="service-item" data-aos="fade-up" data-aos-delay="400">
+                    <h3>Facial Treatment</h3>
+                    <p>Deep cleansing, nourishing and rejuvenating for your skin.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" data-aos="fade-up">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We are dedicated to providing high-quality massage and beauty services, allowing you to enjoy professional care in a comfortable and tranquil environment. Our therapists are experienced and skilled, aiming to bring you the best relaxation and recovery experience.</p>
+        </div>
+    </section>
+
+    <section id="contact" data-aos="fade-up">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Please complete the form and our team will contact you. Thank you.</p>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Caboolture Massage & Beauty. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true // 只触发一次动画
+        });
+    </script>
+</body>
+</html>
