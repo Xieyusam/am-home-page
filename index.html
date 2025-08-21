@@ -1,118 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Caboolture Massage & Beauty</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Massage Legendary</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
     <header>
-        <div class="container">
-            <div class="logo">
-                <span>Massage & Beauty</span>
-            </div>
-            <nav class="desktop-nav">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="pages/services.html">Services</a></li>
-                    <li><a href="#about">About Us</a></li>
-                    <li><a href="pages/contact.html">Contact Us</a></li>
-                </ul>
-            </nav>
-            <div class="menu-toggle" id="mobile-menu">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
+      <div class="container">
+        <div class="logo">
+          <img
+            src="./asset/img/mass-logo.png"
+            alt="Massage Legendary Logo"
+            class="logo-img"
+          />
         </div>
+        <nav class="desktop-nav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="pages/services.html">Services</a></li>
+            <li><a href="pages/contact.html">Contact Us</a></li>
+          </ul>
+        </nav>
+        <div class="menu-toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
     </header>
 
     <div class="mobile-nav-overlay" id="mobile-nav-overlay">
-        <nav class="mobile-nav">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="pages/services.html">Services</a></li>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="pages/contact.html">Contact Us</a></li>
-            </ul>
-        </nav>
+      <nav class="mobile-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="pages/services.html">Services</a></li>
+          <li><a href="pages/contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
     </div>
 
-    <section id="hero" data-aos="fade-up">
-        <div class="container">
-            <h2>Welcome to Caboolture Massage & Beauty</h2>
-            <p>Your go-to spot for traditional massage therapy in Caboolture. Our skilled therapists are experts in the art of relaxation and rejuvenation.</p>
-            <a href="#contact" class="btn">Book For an Appointment</a>
-        </div>
+    <!-- Image Carousel Section -->
+    <section id="image-carousel" class="carousel-container">
+      <div class="hero-content">
+        <h2>Welcome to Massage Legendary</h2>
+        <p>
+          Provide deep tissue/ remedial / relaxation massage & Reflexoloy &
+          Acupuncture ( Dry needling) & Waxing, Tinting & Facial
+        </p>
+        <a href="#contact" class="btn">Book For an Appointment</a>
+      </div>
+      <div class="carousel-slides">
+        <img
+          src="./asset/img/pexels-anete-lusina-5240640.jpg"
+          alt="Massage Image 1"
+          class="carousel-slide active"
+        />
+        <img
+          src="./asset/img/pexels-jonathanborba-19641830.jpg"
+          alt="Massage Image 2"
+          class="carousel-slide"
+        />
+        <img
+          src="./asset/img/pexels-olly-3764568.jpg"
+          alt="Massage Image 3"
+          class="carousel-slide"
+        />
+        <img
+          src="./asset/img/pexels-olly-3764570.jpg"
+          alt="Massage Image 4"
+          class="carousel-slide"
+        />
+        <img
+          src="./asset/img/pexels-tima-miroshnichenko-6187657.jpg"
+          alt="Massage Image 5"
+          class="carousel-slide"
+        />
+      </div>
     </section>
 
     <section id="services" data-aos="fade-up">
-        <div class="container">
-            <h2>Our Services</h2>
-            <div class="service-grid">
-                <div class="service-item" data-aos="fade-up" data-aos-delay="100">
-                    <h3>Deep Tissue Massage</h3>
-                    <p>Relieves severe tension in the muscle and connective tissue.</p>
-                </div>
-                <div class="service-item" data-aos="fade-up" data-aos-delay="200">
-                    <h3>Aromatherapy Massage</h3>
-                    <p>Uses essential oils to promote healing and a feeling of well-being.</p>
-                </div>
-                <div class="service-item" data-aos="fade-up" data-aos-delay="300">
-                    <h3>Swedish Massage</h3>
-                    <p>Gentle massage that uses long strokes, kneading, deep circular movements, vibration and tapping.</p>
-                </div>
-                <div class="service-item" data-aos="fade-up" data-aos-delay="400">
-                    <h3>Facial Treatment</h3>
-                    <p>Deep cleansing, nourishing and rejuvenating for your skin.</p>
-                </div>
-            </div>
+      <div class="container">
+        <h2>Our Services</h2>
+        <div class="service-grid">
+          <div class="service-item" data-aos="fade-up" data-aos-delay="50">
+            <h3>Deep Tissue/Remedial/Relaxation Massage</h3>
+            <div class="service-overlay"></div>
+            <img src="./asset/img/services/pexels-karolina-grabowska-6629534.jpg" alt="Deep Tissue Massage" class="service-icon">
+          </div>
+          <div class="service-item" data-aos="fade-up" data-aos-delay="100">
+            <h3>Reflexoloy</h3>
+            <div class="service-overlay"></div>
+            <img src="./asset/img/services/pexels-john-tekeridis-21837-14256897.jpg" alt="Reflexology" class="service-icon">
+          </div>
+          <div class="service-item" data-aos="fade-up" data-aos-delay="150">
+            <h3>Acupuncture(Dry needling)</h3>
+            <div class="service-overlay"></div>
+            <img src="./asset/img/services/pexels-cristian-rojas-8391428.jpg" alt="Acupuncture" class="service-icon">
+          </div>
+          <div class="service-item" data-aos="fade-up" data-aos-delay="200">
+            <h3>Waxing,Tinting</h3>
+            <div class="service-overlay"></div>
+            <img src="./asset/img/services/pexels-koolshooters-6628602.jpg" alt="Waxing, Tinting" class="service-icon">
+          </div>
+          <div class="service-item" data-aos="fade-up" data-aos-delay="250">
+            <h3>Facial</h3>
+            <div class="service-overlay"></div>
+            <img src="./asset/img/services/pexels-pixabay-433626.jpg" alt="Facial" class="service-icon">
+          </div>
         </div>
-    </section>
-
-    <section id="about" data-aos="fade-up">
-        <div class="container">
-            <h2>About Us</h2>
-            <p>We are dedicated to providing high-quality massage and beauty services, allowing you to enjoy professional care in a comfortable and tranquil environment. Our therapists are experienced and skilled, aiming to bring you the best relaxation and recovery experience.</p>
-        </div>
+      </div>
     </section>
 
     <section id="contact" data-aos="fade-up">
-        <div class="container">
-            <h2>Contact Us</h2>
-            <p>Please complete the form and our team will contact you. Thank you.</p>
-            <form>
-                <div class="form-group">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required>
-                </div>
-                <div class="form-group">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-                <div class="form-group">
-                    <label for="message">Message:</label>
-                    <textarea id="message" name="message" rows="5" required></textarea>
-                </div>
-                <button type="submit" class="btn">Send Message</button>
-            </form>
-        </div>
+      <div class="container">
+        <h2>Contact Us</h2>
+        <p>
+          Please complete the form and our team will contact you. Thank you.
+        </p>
+        <form>
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
     </section>
 
     <footer>
-        <div class="container">
-            <p>&copy; 2023 Caboolture Massage & Beauty. All Rights Reserved.</p>
-        </div>
+      <div class="container">
+        <p>&copy; 2025 Massage Legendary. All Rights Reserved.</p>
+      </div>
     </footer>
 
     <script src="script.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-        AOS.init({
-            once: true // 只触发一次动画
-        });
+      AOS.init({
+        once: true, // 只触发一次动画
+      });
     </script>
-</body>
+  </body>
 </html>
